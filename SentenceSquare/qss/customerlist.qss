@@ -1,0 +1,29 @@
+QListWidget {
+    font-weight: bold;
+	font-size: 13px;
+}
+QListWidget::item{
+	margin: 0;
+	text-decoration: none;
+	height: 36px;
+	padding: 0px;
+	color: #423e3e;
+	position: relative;
+	background: url(:/img/divider.png) center bottom repeat-x;
+}
+/*
+QListWidget::item:hover{
+	background: url(:/img/list-active.jpg);
+	background-position: top;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.45);
+	border-bottom: 1px solid transparent;
+}
+*/
+QListWidget::item:selected{
+	background: url(:/img/list-active.jpg);
+	background-position: top;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.45);
+	border-bottom: 1px solid transparent;
+}

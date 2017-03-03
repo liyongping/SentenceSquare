@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/customerList.qss</file>
+        <file>img/divider.png</file>
+        <file>img/list-active.jpg</file>
+        <file>img/sound_small.gif</file>
+        <file>js/jquery-1.7.2.min.js</file>
+        <file>js/youdao_extension.js</file>
+    </qresource>
+</RCC>
